@@ -1,0 +1,1 @@
+{"equipment_id":"DMP03","date":"20240315","sample_rate_hz":50,"channels":["ax","ay","az","gx","gy","gz"],"dtype":"float32","byte_order":"little","n_samples":4320000,"calibration_ref":"calib/DMP03_imu_cal.json","checksum_sha256":"86ee98e3a1cac1296c317aa2832d349a23d63d7f7c02b8f76536ebd61955538a"}

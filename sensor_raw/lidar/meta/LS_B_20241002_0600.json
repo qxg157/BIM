@@ -1,0 +1,1 @@
+{"scan_id":"LS_B_20241002_0600","station":"LS_B","timestamp":"20241002T060000+0800","n_points":488292,"bbox":{"xmin":456100,"xmax":457200,"ymin":3790800,"ymax":3791700,"zmin":285,"zmax":412},"noise_sigma_m":0.008,"registration_rmse_m":0.0713,"processing_status":"aligned"}

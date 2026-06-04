@@ -1,0 +1,1 @@
+{"project":"HW-GS-2024","scanner_model":"RIEGL VZ-2000i","stations":[{"id":"LS_A","easting":456231.84,"northing":3791024.67,"elev":312.44},{"id":"LS_B","easting":457018.32,"northing":3791502.11,"elev":328.91}],"scans_total":1840,"format":"LAS 1.4","avg_density_pts_m2":142,"registration_method":"ICP+GCP","coordinate_system":"CGCS2000 / 3-degree GK CM 108E"}

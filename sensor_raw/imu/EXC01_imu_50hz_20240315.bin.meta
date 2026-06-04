@@ -1,0 +1,1 @@
+{"equipment_id":"EXC01","date":"20240315","sample_rate_hz":50,"channels":["ax","ay","az","gx","gy","gz"],"dtype":"float32","byte_order":"little","n_samples":4320000,"calibration_ref":"calib/EXC01_imu_cal.json","checksum_sha256":"4b296f87c244a4b03d8837aa389a866bf57c3889d8bf9219478e06088cb16f88"}

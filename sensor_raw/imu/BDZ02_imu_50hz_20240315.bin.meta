@@ -1,0 +1,1 @@
+{"equipment_id":"BDZ02","date":"20240315","sample_rate_hz":50,"channels":["ax","ay","az","gx","gy","gz"],"dtype":"float32","byte_order":"little","n_samples":4320000,"calibration_ref":"calib/BDZ02_imu_cal.json","checksum_sha256":"1214a5788bd5d63a0f7bde7caf1cc02daab4604beb01fc0daa3d420c3be2c28e"}
