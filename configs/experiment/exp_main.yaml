@@ -1,0 +1,33 @@
+experiment:
+  name: bim_idt_highway_gs2024
+  seed: [42, 123, 456, 789, 1024]
+  gpu: [0]
+  precision: fp32
+
+data:
+  project: HW-GS-2024
+  split: chronological
+  train_months: [2024-03, 2024-12]
+  val_months: [2025-01, 2025-02]
+  test_months: [2025-03, 2025-04]
+  label_src: proc/labels/annotation_index.csv
+
+model:
+  type: stgat
+  config: models/stgat/hparams.json
+
+optimization:
+  type: cmoeo
+  config: configs/optim/cmoeo_params.json
+  replan_min: 30
+
+progress:
+  lidar_interval_h: 4
+  grid_delta_m: 0.5
+  outlier_k: 20
+  outlier_sigma: 2.0
+
+logging:
+  wandb_project: bim-idt
+  save_ckpt_every: 5
+  eval_every: 1

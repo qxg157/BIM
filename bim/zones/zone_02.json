@@ -1,0 +1,1 @@
+{"zone_id":"Z02","boundary_wkt":"POLYGON((456260 3790920,456380 3790920,456380 3791010,456260 3791010,456260 3790920))","area_m2":12474,"design_cut_m3":62558,"design_fill_m3":36142,"soil_class":"GP","compaction_target_pct":97,"schedule_start":"2024-03-01","schedule_end":"2025-01-28","haul_roads":[4,5],"env_restrictions":["noise_curfew_22_06"]}

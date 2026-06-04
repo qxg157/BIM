@@ -1,0 +1,1 @@
+{"receiver":"Trimble R12i","mode":"RTK","base_station":"CORS_XA01","correction":"NTRIP","update_rate_hz":1,"elevation_mask_deg":10,"pdop_threshold":4.0,"antenna_offset_m":[0.0,0.0,1.85]}

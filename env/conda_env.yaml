@@ -1,0 +1,11 @@
+name: bim_idt
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.8
+  - cudatoolkit=12.1
+  - pip:
+    - -r requirements.txt

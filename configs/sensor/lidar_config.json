@@ -1,0 +1,1 @@
+{"scanner":"RIEGL VZ-2000i","pulse_rate_khz":1200,"scan_speed_lines_s":240,"range_m":2050,"beam_divergence_mrad":0.35,"accuracy_mm":5,"default_interval_h":4,"registration":"ICP+GCP","ground_filter":"CSF","csf_params":{"cloth_resolution":0.5,"max_iteration":500,"classification_threshold":0.5}}

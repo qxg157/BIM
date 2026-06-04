@@ -1,0 +1,16 @@
+ablation:
+  stgat_variants:
+    - {name: full, spatial: true, temporal: true, heads: 4, joint: true, gru: true, dynamic: true}
+    - {name: no_spatial, spatial: false, temporal: true, heads: 4, joint: true, gru: true, dynamic: true}
+    - {name: no_temporal, spatial: true, temporal: false, heads: 4, joint: true, gru: true, dynamic: true}
+    - {name: single_head, spatial: true, temporal: true, heads: 1, joint: true, gru: true, dynamic: true}
+    - {name: cls_only, spatial: true, temporal: true, heads: 4, joint: false, gru: true, dynamic: true}
+    - {name: no_gru, spatial: true, temporal: true, heads: 4, joint: true, gru: false, dynamic: true}
+    - {name: static_graph, spatial: true, temporal: true, heads: 4, joint: true, gru: true, dynamic: false}
+  pipeline_variants:
+    - {name: full, stgat: true, lidar: true, cmoeo: true, bim: true, feedback: true}
+    - {name: lstm_replace, stgat: false, stgat_alt: lstm}
+    - {name: photo_replace, lidar: false, lidar_alt: photogrammetry}
+    - {name: rule_replace, cmoeo: false, cmoeo_alt: rule_heuristic}
+    - {name: no_bim, bim: false}
+    - {name: no_feedback, feedback: false}

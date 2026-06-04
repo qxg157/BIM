@@ -1,0 +1,1 @@
+{"protocol":"J1939","baud":250000,"pids":["fuel_rate","engine_rpm","hydraulic_pressure","coolant_temp","intake_temp","battery_voltage"],"poll_rate_hz":1,"timeout_ms":200}

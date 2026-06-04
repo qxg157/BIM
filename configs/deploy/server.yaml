@@ -1,0 +1,24 @@
+server:
+  host: 0.0.0.0
+  port: 8443
+  tls: true
+  workers: 4
+  gpu_device: 0
+
+pipeline:
+  data_rx_threads: 4
+  graph_build_threads: 2
+  inference_batch_timeout_ms: 50
+  dashboard_ws_port: 8444
+  push_rate_hz: 1
+
+lte:
+  apn: site-vpn
+  keepalive_s: 30
+  reconnect_max: 5
+  buffer_on_disconnect: true
+
+monitoring:
+  prometheus_port: 9090
+  log_level: INFO
+  latency_histogram_buckets: [100, 200, 500, 750, 1000, 1500, 2000]

@@ -1,0 +1,11 @@
+generalization:
+  target_project: DAM-YL-2024
+  equipment_count: 12
+  zones: 4
+  duration_months: 5
+  transfer:
+    - {name: zero_shot, finetune: false}
+    - {name: ft_1wk, finetune: true, data_days: 7}
+    - {name: ft_1mo, finetune: true, data_days: 30}
+  finetune_lr: 1e-4
+  freeze_layers: [temporal_conv]

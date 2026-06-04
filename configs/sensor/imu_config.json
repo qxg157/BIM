@@ -1,0 +1,1 @@
+{"model":"Xsens MTi-680G","sample_rate_hz":50,"acc_range_g":16,"gyro_range_dps":2000,"filter":"Madgwick","agg_window_s":1,"agg_stats":["mean","std"],"output_dim":12}

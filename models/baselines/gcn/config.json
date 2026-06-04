@@ -1,0 +1,1 @@
+{"model":"GCN","hidden":[128,128],"aggregation":"mean","activation":"relu","dropout":0.15,"rho_m":100,"input_dim":20,"window":30}
